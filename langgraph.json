@@ -1,0 +1,11 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "dependencies": ["."],
+  "graphs": {
+    "clintrace": "./src/clintrace/graph.py:graph"
+  },
+  "http": {
+    "app": "./src/clintrace/api.py:app"
+  },
+  "env": ".env"
+}

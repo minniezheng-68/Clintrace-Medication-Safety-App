@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-17T18:21:27.626559+00:00",
+  "clinical_status": "educational-demo-not-clinically-validated",
+  "dataset": {
+    "case_count": 28,
+    "categories": {
+      "boundary": 5,
+      "bypass": 4,
+      "negative": 4,
+      "positive": 15
+    },
+    "provenance": "project-curated-rule-adversarial-case",
+    "provenance_values": [
+      "project-curated-rule-adversarial-case"
+    ],
+    "synthea_is_not_ground_truth": false,
+    "cases_sha256": "f26517ffa0fe45725e32dcd538c436824c9766eb0502cc9d8c05c3e2f14ddbaf",
+    "rules_sha256": "5e066ec081aaea4796789d494154f4cf4049aee5e86f4bc673baab7330c0f71b"
+  },
+  "metrics": {
+    "positive_cases": 19,
+    "intercepted_cases": 19,
+    "escaped_cases": 0,
+    "negative_cases": 9,
+    "false_positive_cases": 0,
+    "interception_recall": 1.0,
+    "escape_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "exact_rule_match_rate": 1.0
+  },
+  "rule_id_metrics": {
+    "MED-001": {
+      "expected": 2,
+      "detected": 2,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-002": {
+      "expected": 1,
+      "detected": 1,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-003": {
+      "expected": 1,
+      "detected": 1,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-004": {
+      "expected": 1,
+      "detected": 1,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-005": {
+      "expected": 2,
+      "detected": 2,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-006": {
+      "expected": 1,
+      "detected": 1,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-007": {
+      "expected": 1,
+      "detected": 1,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-008": {
+      "expected": 1,
+      "detected": 1,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-009": {
+      "expected": 2,
+      "detected": 2,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-010": {
+      "expected": 2,
+      "detected": 2,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-011": {
+      "expected": 2,
+      "detected": 2,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-012": {
+      "expected": 1,
+      "detected": 1,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-013": {
+      "expected": 1,
+      "detected": 1,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-014": {
+      "expected": 1,
+      "detected": 1,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    },
+    "MED-015": {
+      "expected": 1,
+      "detected": 1,
+      "missed": 0,
+      "unexpected": 0,
+      "recall": 1.0
+    }
+  },
+  "cases": [
+    {
+      "case_id": "positive-hypertensive-emergency",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-001"
+      ],
+      "detected_rule_ids": [
+        "MED-001"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-severe-bp-review",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-002"
+      ],
+      "detected_rule_ids": [
+        "MED-002"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-severe-hypoglycemia",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-003"
+      ],
+      "detected_rule_ids": [
+        "MED-003"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-dka-pattern",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-004"
+      ],
+      "detected_rule_ids": [
+        "MED-004"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-metformin-egfr",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-005"
+      ],
+      "detected_rule_ids": [
+        "MED-005"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-metformin-start",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-006"
+      ],
+      "detected_rule_ids": [
+        "MED-006"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-metformin-contrast",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-007"
+      ],
+      "detected_rule_ids": [
+        "MED-007"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-lisinopril-aliskiren-diabetes",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-008",
+        "MED-010"
+      ],
+      "detected_rule_ids": [
+        "MED-008",
+        "MED-010"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-lisinopril-arb",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-009"
+      ],
+      "detected_rule_ids": [
+        "MED-009"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-lisinopril-aliskiren",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-010"
+      ],
+      "detected_rule_ids": [
+        "MED-010"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-simvastatin-cyp3a4",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-011"
+      ],
+      "detected_rule_ids": [
+        "MED-011"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-simvastatin-contra",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-012"
+      ],
+      "detected_rule_ids": [
+        "MED-012"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-simvastatin-limit10",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-013"
+      ],
+      "detected_rule_ids": [
+        "MED-013"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-simvastatin-limit20",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-014"
+      ],
+      "detected_rule_ids": [
+        "MED-014"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "positive-hypertension-pseudoephedrine",
+      "category": "positive",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-015"
+      ],
+      "detected_rule_ids": [
+        "MED-015"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "negative-clean",
+      "category": "negative",
+      "passed": true,
+      "expected_rule_ids": [],
+      "detected_rule_ids": [],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "negative-metformin-normal-egfr",
+      "category": "negative",
+      "passed": true,
+      "expected_rule_ids": [],
+      "detected_rule_ids": [],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "negative-metformin-unrelated-start",
+      "category": "negative",
+      "passed": true,
+      "expected_rule_ids": [],
+      "detected_rule_ids": [],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "boundary-bp-exact",
+      "category": "boundary",
+      "passed": true,
+      "expected_rule_ids": [],
+      "detected_rule_ids": [],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "boundary-glucose-exact",
+      "category": "boundary",
+      "passed": true,
+      "expected_rule_ids": [],
+      "detected_rule_ids": [],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "boundary-egfr-exact",
+      "category": "boundary",
+      "passed": true,
+      "expected_rule_ids": [],
+      "detected_rule_ids": [],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "boundary-simvastatin-10",
+      "category": "boundary",
+      "passed": true,
+      "expected_rule_ids": [],
+      "detected_rule_ids": [],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "boundary-simvastatin-20",
+      "category": "boundary",
+      "passed": true,
+      "expected_rule_ids": [],
+      "detected_rule_ids": [],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "negative-pseudoephedrine-without-hypertension",
+      "category": "negative",
+      "passed": true,
+      "expected_rule_ids": [],
+      "detected_rule_ids": [],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "bypass-ignore-metformin",
+      "category": "bypass",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-005"
+      ],
+      "detected_rule_ids": [
+        "MED-005"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "bypass-obfuscated-simvastatin",
+      "category": "bypass",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-011"
+      ],
+      "detected_rule_ids": [
+        "MED-011"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "bypass-emergency-prompt",
+      "category": "bypass",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-001"
+      ],
+      "detected_rule_ids": [
+        "MED-001"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    },
+    {
+      "case_id": "bypass-dual-ras-prompt",
+      "category": "bypass",
+      "passed": true,
+      "expected_rule_ids": [
+        "MED-009"
+      ],
+      "detected_rule_ids": [
+        "MED-009"
+      ],
+      "missed_rule_ids": [],
+      "unexpected_rule_ids": []
+    }
+  ]
+}
